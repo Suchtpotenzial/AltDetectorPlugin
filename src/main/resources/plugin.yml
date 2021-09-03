@@ -1,0 +1,23 @@
+name: GamerNET-AltDetector
+main: me.suchtpotenzial.altdetector.AltDetector
+version: 1.0
+author: Bobcat00, Suchtpotenzial
+description: Erkennt potenzielle Alt Accounts
+commands:
+  alt:
+    description: Lists possible alt accounts of player.
+    permission: altdetector.alt
+    usage: "/alt [player]"
+permissions:
+  altdetector.alt:
+    description: Allows use of the /alt command
+    default: op
+  altdetector.alt.delete:
+    description: Allows use of the /alt delete command
+    default: op
+  altdetector.exempt:
+    description: Exempts player from data being saved and a lookup being done when joining the server
+    default: false
+  altdetector.notify:
+    description: Notifies this player when an alt is detected
+    default: op
