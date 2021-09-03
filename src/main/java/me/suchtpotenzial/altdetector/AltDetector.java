@@ -1,6 +1,5 @@
 package me.suchtpotenzial.altdetector;
 
-import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class AltDetector extends JavaPlugin {
