@@ -1,0 +1,1 @@
+"# AltDetectorPlugin" 
